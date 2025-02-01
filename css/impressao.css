@@ -1,0 +1,159 @@
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;  
+    overflow: auto;
+}
+.fonte{
+
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+   
+    
+    }
+    #text{
+
+        margin-bottom: 450px;
+    }
+.fontebranca{
+    color: #cccccc;
+    
+    }
+    #logo{
+        -moz-box-flex: inherit;
+        width: 350px;
+
+
+    }
+    
+.ajuste {
+
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.titulo {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+label {
+    text-align: left;
+    width: 100px;
+    float: left;
+}
+
+.espaco {
+
+    right: 500px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+}
+.phptela{
+width: 100%;
+height: 100vh;
+
+}
+.bordaT {
+
+    border-style:groove;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.perfil {
+    width: 310px;
+}
+
+.imgdireita {
+    width: 15px;
+    height: 15px;
+}
+
+#pesq {
+    flex-flow: row;
+    justify-items: right;
+    padding-bottom: 10px;
+}
+.titulored{
+color:red;
+}
+.esquerda {
+
+    margin-left: 0;
+}
+
+.centro {
+    text-align: center;
+    justify-items: center;
+}
+
+.direita{
+    text-align: right;
+    align-items: flex-end;
+}
+
+.bordasimples {
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px#0a0a0a;
+
+}
+
+.borda {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px#0a0a0a;
+
+}
+.buttonimg{
+
+    width: 50px;
+    height:50px;
+    border: double;
+}
+.button {
+    padding: auto;
+    width: 100px;
+    height:50px;
+    color: #cccccc;
+    background-color: #2E2E2E;
+    border-radius: 5px;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1366px) {
+    body {
+
+        font-family: "Poppins", sans-serif;
+        height: 100vh;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        overflow-y: scroll;
+    }
+
+    form {
+        width: 500px;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 510px) {
+
+    div#usuarios {
+        margin: auto;
+        padding: auto;
+        float: left;
+        background-color: #606060;
+    }
+}

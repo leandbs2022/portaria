@@ -1,0 +1,55 @@
+body{
+background-color: white;
+  background: url("../imagens/M93.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+#dados{
+    display: flex;
+    position:absolute;
+    margin-left: 100px;
+    margin-top: 225px;
+}
+#equip{
+    display: flex;
+    position:absolute;
+    margin-left: 100px;
+    margin-top: 500px;
+}
+#ano{
+    display: flex;
+    position:absolute;
+    margin-left: 380px;
+    margin-top: 198px;
+}
+
+#cod{
+    display: flex;
+    position:absolute;
+    margin-left: 350px;
+    margin-top: 198px;
+}
+
+#datah{
+    display: flex;
+    position:absolute;
+    margin-left: 450px;
+    margin-top: 750px;
+}
+
+#situa{
+    display: flex;
+    position:absolute;
+    margin-left: 100px;
+    margin-top: 680px;
+}
+
+#tecnico{
+    display: flex;
+    position:absolute;
+    text-align: center;
+    justify-items: center;
+    margin-left: 300px;
+    margin-top: 810px;
+}

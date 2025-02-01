@@ -1,0 +1,47 @@
+fieldset#ramais{
+    background: url("../img/cabine.jpg") no-repeat 95% 95%;
+    background-size:contain;
+    background-position:top;
+    background-position-x: right;
+}
+.fontecombo{
+    width: auto;
+}
+.textwid{
+    width: 5%;
+}
+fieldset#cliente{
+    background: url("../img/infor_impor.jpg") no-repeat 95% 95%;
+    background-size:contain;
+    background-position:top;
+    background-position-x: right;
+  }
+  iframe#alt_ramais{
+    width:100%;
+    height:100%;
+    border:hidden;
+  }
+@media only screen and (max-width: 966px) {
+    fieldset {
+        margin: auto;
+        padding: auto;
+        float: left;
+        left: auto;
+    }
+    .fontecombo{
+        width: 50%;
+    }
+    
+    fieldset#ramais{
+        background: url("") no-repeat 95% 95%;
+        background-size:contain;
+        background-position:top;
+        background-position-x: right;
+    }
+    fieldset#cliente{
+        background: url("") no-repeat 95% 95%;
+        background-size:contain;
+        background-position:top;
+        background-position-x: right;
+      }
+}

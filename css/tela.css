@@ -1,0 +1,142 @@
+*{
+margin: 0;
+padding: 0;
+display:flex;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background-color: #2E2E2E;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.tela_hei{
+    height:auto;
+ }
+ .border_title{
+    border-style: double;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px #1b1b1b;
+  }
+.borda{
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px #cccccc;
+    width: 400px;
+    height: 250px;
+}
+.barra8 {
+    background:gray;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px purple;
+}
+.barra{
+    background:blueviolet;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+
+}
+.barra1{
+    background:forestgreen;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra2{
+    background:goldenrod;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra3{
+    background:deepskyblue;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra4{
+    background:orange;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra5{
+    background:yellow;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra6{
+    background:deeppink;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra7{
+    background:violet;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.barra8{
+    background:cornflowerblue;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px blue;
+}
+.titulobar{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.largura{
+    width: 300px;
+    height: 250px;
+    border-radius: 2%;
+    padding:1px;
+}
+.largura:hover{
+    transform: scale(0.8);
+    background: #fff;
+    opacity: 0.5;
+}
+a:hover{
+    color:black;
+}
+div{
+    padding: 5px 5px 5px 5px;
+
+}
+@media (max-width:1200px){
+
+body{
+    zoom:85%;
+    overflow:auto;
+}
+}
+
+@media (max-width:700px){
+    
+    body{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: auto;
+    }
+
+    }

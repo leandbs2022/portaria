@@ -1,0 +1,17 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+   /* width: 297mm;
+    height: 210mm;*/
+}
+.titulo{
+   display: inline-flex;
+   position:absolute;
+   align-items: center;
+   margin-top: 45px;
+   margin-left:220px;
+   width: 350px;
+   border-style: none ;
+   text-align: center;
+}

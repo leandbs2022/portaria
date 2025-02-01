@@ -1,0 +1,401 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.title {
+  font-size: 25px;
+  padding: 50px;
+  margin: 0 auto;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+#title_leg{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.quadro{
+  margin-top: 50px;
+}
+#cor{
+  width: 50px;
+}
+#borda{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+#visita_titulo{
+  float: left;
+  left: 1px;
+}
+label {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+#rest{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+#private{
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.border_v{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+.border_f{
+  border-style: double;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.border_foto{
+  border-style: double;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px #1b1b1b;
+}
+.centro {
+  text-align: center;
+  justify-items: center;
+}
+picture{
+  margin-top: 5px;
+}
+.bloquear{
+  opacity: 1;
+}
+.liberar{
+  opacity: 0;
+  display: flex;
+  position: absolute;
+}
+.direita {
+  float: right;
+  margin-right: 0;
+}
+
+#acesso{
+  width: 30%;
+  font-style:normal;
+  font-size: 24px;
+  text-align:center;
+  margin-left: 650px;
+}
+#canvas {
+  display: block;
+  border-radius: 5px;
+}
+#video {
+  display: block;
+  border-radius: 5px;
+}
+.esquerda {
+  float: left;
+  margin-left: 0;
+}
+#foto{
+  width: 240px;
+  height: 150px;
+  border-radius: 5px;
+}
+.fotos {
+  display: flex;
+  flex-direction: row;
+}
+#spaco_c {
+  padding: 10px;
+  margin-left: 5px;
+  border-style: double;
+}
+#button_cap {
+  margin-top: 10px;
+}
+.button_c {
+  width: 100%;
+}
+
+#spaco {
+  margin-top: 10px;
+}
+#bespaco{
+  padding: 2px;
+  margin: 2px;
+}
+.menu01 {
+  display: flex;
+  flex-direction: row;
+  
+}
+.FOTOS_C {
+  display: flex;
+  flex-direction: row;
+}
+
+.body_alt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.screen_alt {
+  border: #000;
+  border-style: double;
+  padding: 5px;
+  margin: 30px;
+}
+
+#right-lab {
+  display: flex;
+  position: absolute;
+  right: 50px;
+  font-style: oblique;
+  color: #012936;
+}
+
+.container-fluir {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 500px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+button {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #3d4448;
+  color: #fff;
+}
+
+input {
+  width: auto;
+}
+.area{
+  background-color: #f0f0f0; /* Define a cor de fundo */
+  color: #333;               /* Define a cor do texto */
+  border: 1px solid #ccc;    /* Define a borda */
+  padding: 10px;             /* Adiciona um preenchimento interno */
+  font-size: 16px; 
+  width: 100%;
+}
+.cuf {
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input[type="number"] {
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input[type="email"] {
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input[type="select"] {
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  background-color: #797c7e;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #e6e6e6;
+}
+
+input[type="text"]:hover {
+  background-color: #e6e6e6;
+  text-transform: uppercase;
+  
+}
+
+input[type="number"]:hover {
+  background-color: #e6e6e6;
+}
+
+input[type="email"]:hover {
+  background-color: #e6e6e6;
+}
+
+input[type="submit"]:hover {
+  background-color: #e6e6e6;
+}
+
+#pes-combo {
+  margin-top: 10px;
+  height: auto;
+}
+
+/* uma mexidinha */
+
+.balanco:hover {
+  -webkit-animation: swing 1s ease;
+  animation: anime-balanco 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@keyframes anime-balanco {
+  15% {
+    -webkit-transform: translateX(7px);
+    transform: translateX(7px);
+  }
+
+  30% {
+    -webkit-transform: translateX(-7px);
+    transform: translateX(-7px);
+  }
+
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 1723px) {
+  input[type="submit"] {
+    width: auto;
+    height: auto;
+  }
+
+  button {
+    width: auto;
+    height: auto;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 24px;
+    padding: 50px;
+    margin: auto;
+  }
+  .fotos {
+    display:grid;
+    flex-direction: column;
+  }
+  #canvas {
+    display:flex;
+    border-radius: 5px;
+  }
+  #video {
+    display:flex;
+    border-radius: 5px;
+  }
+  .menu01 {
+    display: flex;
+    flex-direction: column;
+  }
+  #canvas{
+    width: 150;
+    height: 200;
+    
+  }
+  #video{
+    width: 200px;
+    height: 200px;
+
+  }
+  select {
+    height: auto;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+
+  .centro_title {
+    text-align: center;
+    justify-items: center;
+  }
+  
+.title {
+  opacity: 0;
+  position: absolute;
+}
+#acesso{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+}
+
+
+@media (orientation: portrait) {
+  /* Styles for portrait orientation */
+}
+
+@media (orientation: landscape) {
+  /* Styles for landscape orientation */
+}

@@ -1,0 +1,14 @@
+#sair{
+    float:left;
+    margin-top: 100px;
+    position: absolute;
+}
+.espaco{
+    padding: 5px;
+    margin: 10px;
+}
+
+*{
+    margin: 5px;
+    padding: 5px;
+}

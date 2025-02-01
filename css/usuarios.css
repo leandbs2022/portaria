@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url('http://lbscode.com.br/agencia/alpha/img/visitante.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.quadro{
+    margin-top: 100px;
+}
+.container_form {
+    margin: 0 auto;
+    width: 500px;
+}
+.direita{
+    float: right;
+    right: 0px;
+}
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 2px 2px #d3d3d3;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.bordar_div_p {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: justify;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    padding: 5px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="text"],
+[type="password"] {
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+    height: 40px;
+}
+
+.espaco {
+    padding: 5px;
+    margin: 2px;
+}
+
+/* uma mexidinha */
+
+.balanco:hover {
+    -webkit-animation: swing 1s ease;
+    animation: anime-balanco 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@keyframes anime-balanco {
+    15% {
+        -webkit-transform: translateX(7px);
+        transform: translateX(7px);
+    }
+
+    30% {
+        -webkit-transform: translateX(-7px);
+        transform: translateX(-7px);
+    }
+
+    50% {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    65% {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+
+    80% {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin: 2px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        margin: 2px;
+        padding: 5px;
+    }
+}

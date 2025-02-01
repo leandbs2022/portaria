@@ -1,0 +1,36 @@
+legend {
+    display: inline;
+    width: auto;
+    border: 0;
+    padding: 10px;
+  }
+  fieldset {
+    border: 1px solid #999;
+    padding: 10px;
+    /* controla a distancia entre os elementos e a borda */
+    margin: 15px;
+    /* margem para alinhar o fieldset com o restante do grid */
+  }
+  input[type=text] {
+    width: auto;
+    padding: auto;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+  }
+  div{
+    color:white
+  }
+  .primeiro{
+
+  }
+  .segundo{
+
+  }
+  .terceiro{
+    
+  }
+
+ 

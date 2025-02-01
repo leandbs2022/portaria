@@ -1,0 +1,16 @@
+.fotos{
+    display: flex;
+    flex-direction:row;   
+}
+#spaco_c{
+    padding: 10px;
+    margin-left: 5px;
+    border-style:double;
+}
+#button_cap{
+    margin-top: 10px;
+   
+}
+.button_c{
+    width: auto;
+}
